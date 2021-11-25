@@ -24,7 +24,7 @@ To perform a restore, a user or a principal need the permission to restore (that
 
 1. Sign into the [Azure portal](https://portal.azure.com/)
 
-1. Navigate to your subscription and go to **Access control (IAM)** tab and select **Add** > **Add role assignment**
+1. Navigate to **your subscription**(not Cosmos DB account page) and go to **Access control (IAM)** tab and select **Add** > **Add role assignment**
 
 1. In the **Add role assignment** pane, for **Role** field, select **CosmosRestoreOperator** role. Choose **User, group, or a service principal** for the **Assign access to** field and search for a user's name or email ID as shown in the following image:
 
